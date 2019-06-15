@@ -11,12 +11,12 @@
     ]]></description>
 
     <change-notes><![CDATA[
-  1.2 - performance optimization
+  1.2 - 2018.2+ support
     ]]>
     </change-notes>
 
     <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
-    <idea-version since-build="139.000"/>
+    <idea-version since-build="182.3458"/>
 
     <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
          on how to target different products -->
@@ -28,7 +28,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <nonProjectFileWritingAccessExtension implementation="krasa.nonProjectFilesUnlocker.Unlocker" order="first"/>
-        <writingAccessProvider implementation="com.intellij.openapi.fileEditor.impl.NonProjectFileWritingAccessProvider"  order="first"/>
 
     </extensions>
 
